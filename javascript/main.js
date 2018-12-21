@@ -1,9 +1,9 @@
 
 
-var targetNumber = "";
 var wins = 0;
 var losses = 0;
 var counter = 0;
+var targetNumber = "";
 
 var images = ["cat1.png", "cat2.png", "cat3.png", "cat4.png"];
 
@@ -31,7 +31,7 @@ var images = ["cat1.png", "cat2.png", "cat3.png", "cat4.png"];
 
 
 
-	function resetHTML () {
+	function resetHTML () {                         //reset
 		$(".target-number").html(targetNumber);
 		$(".winLose").html("<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>");
 		$(".scoreBoy").html(counter);
@@ -51,10 +51,7 @@ var images = ["cat1.png", "cat2.png", "cat3.png", "cat4.png"];
 	resetCats ();
 
 
-
-
-                                                   //onclick
-	function kittyCatClick () {
+	function kittyCatClick () {  //onclick
 
 		counter += parseInt($(this).attr("value"));
 		$(".scoreBoy").html(counter);

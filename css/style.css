@@ -1,6 +1,7 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/25/61/8b/25618b433796a517acb89ca026c5fc4b.png");
+    background-image: url("https://i.pinimg.com/originals/25/61/8b/25618b433796a517acb89ca026c5fc4b.png"); background-repeat: no-repeat;
     align-content: center;
+    background-color: pink;
 }
 
 
