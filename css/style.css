@@ -90,9 +90,8 @@ header .title {
     top: -100px;
     align-content: center;
     position: relative;
-    left: 500px;
-    justify-content: space-around;
-    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .kittyImages :hover {
@@ -100,6 +99,12 @@ header .title {
     cursor: pointer;
     transform-box: 5s;
 }
+
+img {
+    position: relative;
+    left: 60px;
+    display: flex;
+  }
 
 
 
